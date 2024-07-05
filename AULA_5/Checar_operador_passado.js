@@ -6,9 +6,13 @@ if (operadorEscolhido === "+") {
   );
 
   // ARITIMEDICOS
+  if (operadorEscolhido === "+") {
+  console.log(
+    "O operador de mais e responsavel por somar inteiros ou concatenar strings"
+  );
 } else if (operadorEscolhido === "-") {
   console.log("Subtrai valores inteiros");
-} else if (operadorEscolhido === "-") {
+} else if (operadorEscolhido === "*") {
   console.log("Multiplica os valores inteiros");
 } else if (operadorEscolhido === "/") {
   console.log("Divide valores inteiros");
@@ -20,11 +24,11 @@ if (operadorEscolhido === "+") {
 
 // COMPARAÇAO
 else if (operadorEscolhido === "==") {
-  console.log("Operador de igualdade,compara se o VALOR e igual");
+  console.log("Operador de IGUALDADE,compara se o VALOR e igual");
 } else if (operadorEscolhido === "===") {
-  console.log("Operador de indentico,compara se o TIPO e VALO e igual");
+  console.log("Operador de IDENTICO,compara se o TIPO e VALO e igual");
 } else if (operadorEscolhido === "!==") {
-  console.log("Operador de diferente,compara se e diferente do valor");
+  console.log("Operador de DIFERENTE DE,compara se e diferente do valor");
 } else if (operadorEscolhido === "<=") {
   console.log(
     "Operador de MENOR ou IGUAL,compara se e menor ou igual o valor inserido"
